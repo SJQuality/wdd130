@@ -1,11 +1,14 @@
 :root {
-  --primary-color: #0B4F6C;     /* Deep river blue */
-  --secondary-color: #01BAEF;   /*Bright water blue */
-  --accent1-color: #20BF55;     /* Forest green */
-  /* --accent2-color: #F3A712;     Adventure gold */
+    --primary-color: #0B4F6C;
+    /* Deep river blue */
+    --secondary-color: #01BAEF;
+    /*Bright water blue */
+    --accent1-color: #20BF55;
+    /* Forest green */
+    /* --accent2-color: #F3A712;     Adventure gold */
 
-  --heading-font: 'Trebuchet MS', sans-serif;
-  --body-font: 'Arial', sans-serif;
+    --heading-font: 'Trebuchet MS', sans-serif;
+    --body-font: 'Arial', sans-serif;
 }
 
 * {
@@ -19,12 +22,15 @@ body {
     color: var(--accent1-color);
 }
 
-header, main, footer, section {
+header,
+main,
+footer,
+section {
     width: 840px;
     margin: 0 auto;
 }
 
-header{
+header {
     margin-top: 1rem;
     margin-bottom: 1rem;
     display: grid;
@@ -32,15 +38,15 @@ header{
     grid-row: 1fr 2fr;
     align-items: center;
     background-color: #0B4F6C;
-    
-    
+
+
 }
 
 header img {
     margin: 1rem 1rem 1rem 5rem;
     width: 100px;
     height: auto;
-    
+
 }
 
 nav ul {
@@ -48,26 +54,29 @@ nav ul {
     flex-direction: row;
     justify-content: space-between;
     list-style: none
-    
 }
 
 header nav ul li a {
     text-decoration: none;
     color: #F3A712;
-    padding: 0.5rem 1rem;       
-    border: 2px solid #F3A712;  
-    border-radius: 4px;         
-    background-color: transparent; 
-     
+    padding: 0.5rem 1rem;
+    border: 2px solid #F3A712;
+    border-radius: 4px;
+    background-color: transparent;
+
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
 }
 
-nav, p, section, article {
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
@@ -80,12 +89,12 @@ nav, p, section, article {
 .history-flex {
     display: flex;
     flex-direction: row;
-    gap: 20px; 
+    gap: 20px;
     align-items: center;
 }
 
 .history-flex p {
-    flex: 1;             
+    flex: 1;
     margin: 0;
 }
 
@@ -107,21 +116,23 @@ nav, p, section, article {
 }
 
 figure img {
-  width: 100%;       
-  height: 150px;     
-  object-fit: cover;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
 }
 
 figcaption {
     text-align: center;
 }
-.socialmedia  {
+
+.socialmedia {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    
-    
+
+
 }
+
 .socialmedia a {
     text-decoration: none;
     margin: 5px;
@@ -129,7 +140,7 @@ figcaption {
 
 .socialmedia a img {
     width: 25px;
-    
+
 }
 
 .hero {
