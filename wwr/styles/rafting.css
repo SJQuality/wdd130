@@ -1,7 +1,7 @@
 :root {
   --primary-color: #0B4F6C;     /* Deep river blue */
   --secondary-color: #01BAEF;   /*Bright water blue */
-  --accent1-color: #20BF55;     /* Forest green */
+  /* --accent1-color: #20BF55;     Forest green */
   --accent2-color: #F3A712;     /* Adventure gold */
 
   --heading-font: 'Trebuchet MS', sans-serif;
@@ -96,7 +96,7 @@ nav, p, section, article {
 
 }
 
-figure {
+#adventure {
     width: 840px;
     margin: 0 auto;
     display: grid;
@@ -112,6 +112,9 @@ figure img {
   object-fit: cover;
 }
 
+figcaption {
+    text-align: center;
+}
 .socialmedia  {
     display: flex;
     flex-direction: row;
