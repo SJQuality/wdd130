@@ -1,0 +1,70 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+
+main {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #FF8200;
+    padding: 1.25rem;
+}
+
+fieldset {
+    border: 5px solid #58595B;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+}
+
+legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    padding: 0 10px;
+}
+
+input,
+select,
+textarea {
+    font-size: 1.25em;
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: 3px solid rgb(34, 30, 30);
+}
+
+.code {
+    background-color: rgb(48, 47, 47);
+    color: beige;
+    font-family: monospace;
+    padding: 5px;
+    border-radius: 3px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 1.75em;
+    color: rgb(59, 58, 58);
+    font-style: italic;
+}
+
+button {
+    font-size: 1.25em;
+    padding: 1em;
+    background-color: silver;
+    color: rgb(34, 33, 33);
+    border: 5px solid orange;
+    border-radius: 5px;
+    cursor: pointer;
+}
