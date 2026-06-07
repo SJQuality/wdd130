@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is Stephen's White Water Rafting Contact Us page. Reach out and talk to us!">
+    <meta name="author" content="Stephen Jones">
+    <title>Stephen's White Water Rafting Contact Us</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/sjwwr.jpg" alt="Stephen's WWR Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Stephen's White Water Adventures</h2>
+            <address>
+                 
+                52544 White Water Ave <br>
+                Somewhere, TN 36521 <br>
+                +1 949 239 5953 <br>
+                info@sjwwr.com
+            </address>
+
+        </section>
+        <section id="formsection">
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2306.524497216365!2d-84.67995529069978!3d35.1586601040547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885e3467080710c5%3A0x7f5afa672cb45a5!2sOcoee%20River!5e0!3m2!1sen!2sus!4v1780801437822!5m2!1sen!2sus" width="400" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        
+            <form >
+                
+                <div class="form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name">
+            
+                    <label for="email"> Email</label>
+                    <input type="email" name="email" id="email" placeholder="email@email.com" required>
+
+                    <fieldset>
+                        
+                        <p class="radio-title">Message Purpose</p>
+                        
+                        <div class="radio">
+                            <input type="radio" name="purpose" id="inquiry" value="inquiry">
+                            <label for="inquiry">General Inquiry</label>
+                        </div>
+                        
+                        <div class="radio">
+                            <input type="radio" name="purpose" id="reservation" value="reservation">
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+
+                        <div class="radio">
+                            <input type="radio" name="purpose" id="suggestion" value="suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </fieldset>
+
+                    <label class="message" for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Type here" rows="4"></textarea>
+                    
+                    <div class="checkbox">
+                        <input type="checkbox" name="subscribe" id="subscribe">
+                        <label for="subscribe">Please Subscribe me to the monthly newsletter!</label>
+                    </div>
+
+                    <button type="submit">Reach Out!</button>
+                </div>
+            </form>
+        </section>
+        <section id="employees">
+            <h2>Meet Our Team!</h2>
+            <div id="people">
+                <figure>
+                    <img src="images/stephen.jpg" alt="Stephen Jones-Founder">
+                    <figcaption>Stephen Jones-Founder</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/ian.jpg" alt="Ian">
+                    <figcaption>Not A. Person</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/tweak.png" alt="Silly Goose">
+                    <figcaption>Silly T. Goose</figcaption>
+                </figure>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2026 Stephen’s White Water Adventure | Stephen Jones</p>
+        <nav class="socialmedia">
+            <a href="www.facebook.com">
+                <img src="images/facebook.png" alt="Facebook Icon">
+            </a>
+            <a href="www.linkedin.com">
+                <img src="images/linkedin.png" alt="LinkedIn Icon">
+            </a>
+            <a href="instagram.com">
+                <img src="images/instagram.png" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
