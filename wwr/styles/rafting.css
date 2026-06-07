@@ -38,7 +38,6 @@ header {
     margin-bottom: 1rem;
     display: grid;
     grid-template-columns: 300px 9fr 1fr;
-    grid-row: 1fr 2fr;
     align-items: center;
     background-color: #0B4F6C;
 
