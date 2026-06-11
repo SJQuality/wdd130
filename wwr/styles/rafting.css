@@ -197,7 +197,7 @@ h1 {
 
 #contact-h1 {
     position: relative;
-    
+
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -215,10 +215,11 @@ h1 {
     text-align: center;
     opacity: 100%;
     padding-bottom: 20px;
-    
 
-    
+
+
 }
+
 address {
     position: relative;
     text-align: center;
@@ -358,4 +359,156 @@ button {
 
 #people figcaption {
     text-align: center;
+}
+
+/* Index************************************************************************ */
+
+.adventure-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.adventure-grid-section {
+    width: 500px;
+    height: auto;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.adventure-grid-section p {
+    text-align: center;
+    font-size: larger;
+
+}
+
+.adventure-grid-section img {
+    width: 350px;
+    height: auto;
+
+}
+
+.adventure-grid-section ul {
+    padding-bottom: 20px;
+}
+
+.adventure-grid-section a {
+    text-decoration: none;
+    color: var(--text2-color);
+    text-align: center;
+    padding: 20px;
+    font-weight: 1000;
+    border: 2px var(--secondary-color) solid;
+    border-radius: 10px;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form-group {
+    padding: 3px;
+}
+
+/* Trips************************************************************************ */
+
+.trip-grid {
+    
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 2px dashed var(--accent1-color);
+    border-radius: 10px;
+
+}
+
+#sidebar {
+    
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#sidebar h3 {
+    text-align: center;
+}
+
+
+#sidebar div {
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-contact-btn {
+    text-decoration: none;
+    color: var(--text2-color);
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    font-weight: 1000;
+    border: 2px var(--secondary-color) solid;
+    border-radius: 10px;
+}
+
+.status-date {
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+#river-status p, span {
+    margin: 5px;
+    padding: 0px;
+
+}
+
+.status-note span, .status-metric .label {
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+}
+
+#trips-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.trips {
+    padding: 10px;
+}
+
+#trips-container img{
+    width: 400px;
+    height: auto;
+}
+
+#compare-trips-table {
+
+    border: 2px solid var(--accent1-color);
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+#compare-trips-table thead { 
+    border-bottom: 2px solid var(--accent1-color);
+    margin-bottom: 10px;
+}
+#compare-trips-table tr:nth-child(even) { 
+    background-color: var(--accent2-color) 
+}
+
+#compare-trips-table tbody{
+    margin-top: 10px;
 }
